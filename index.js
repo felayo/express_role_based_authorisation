@@ -40,7 +40,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the PM Global Technologies")
+  res.send("Welcome to the PM Global Technologies, just confirming the ci/cd")
 })
 
 app.listen(8800, () => {
